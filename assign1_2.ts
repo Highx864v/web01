@@ -7,5 +7,5 @@ let newPrice: number = price - (price * 0.15);
 let premium: boolean = price > 500;
 let showBook: boolean = premium && isAvailable;
 
-console.log(`ชื่อหนังสือ: ${bookSummary[0]} \nISBN: ${isbn} \nราคาปก: ${bookSummary[1]} บาท \nราคาหลังลด 15%: ${newPrice} บาท \nเป็นหนังสือ Premium: ${premium} \nสถานะว่าง: ${isAvailable} \nสามารถจัดแสดงหน้าตู้ได้: ${showBook}`);
+console.log("ชื่อหนังสือ: %s\nISBN: %s\nราคาปก: %d บาท\nราคาหลังลด 15%%: %d บาท\nเป็นหนังสือ Premium: %s\nสถานะว่าง: %s\nสามารถจัดแสดงหน้าตู้ได้: %s", bookSummary[0], isbn, bookSummary[1], newPrice, premium, isAvailable, showBook);
                                                     
