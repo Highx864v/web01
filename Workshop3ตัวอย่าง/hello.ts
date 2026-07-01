@@ -3,8 +3,7 @@ function hello(name: string): string{
 }
 
 function vat(amount: number): number{
-    return amount*0.07; //ราคา amount ยังไม่รวม vat
-//  return amount*0.07; ราคา amount รวม vat
+    return amount*0.07;
 }
 
 let message1:string = hello('Jirawat');
