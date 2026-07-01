@@ -11,7 +11,6 @@ let message2:string = hello('Ouamsaard');
 let price1: number = 500;
 let vat1: number = vat(price1);
 
-
 console.log(message1);
 console.log(message2);
 console.log("Price:",price1);
