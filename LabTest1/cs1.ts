@@ -15,4 +15,4 @@ if (ownCup === true) {
   discount = price * 0.05;
 }
 let netPrice: number = price - discount;
-console.log("กาแฟ ขนาด " + cupSize +" ราคา ปกติ " + price + " บาท\n" +"ได้รับส่วนลด 5%" +" ราคาสุทธิ " + netPrice + " บาท");
+console.log("กาแฟ ขนาด " , cupSize ," ราคา ปกติ " , price , " บาท\n" ,"ได้รับส่วนลด 5%" ," ราคาสุทธิ " , netPrice , " บาท");
